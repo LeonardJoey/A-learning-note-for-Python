@@ -1,10 +1,10 @@
 # Python 语法中区分大小写   如下，p和 P 为不同的列表名称
-# list是一种有序的集合，可以随时添加和删除其中的元素。
+# list是一种有序的集合，可以随时添加和删除其中的元素，即list为可变列表。
 # list 中可以包含list，即可将含有list的list视为数组
 p = ['Q','W','E']
 P = ['A','S',p,'D']
-print(p)
-print(P)
+print('列表小p里面有',len(p),'个元素，分别是：',p)
+print('列表大P里面有',len(P),'个元素，分别是：',P,'，其中P[2]为列表小p的内容')
 # Len()函数可以计算列表list内容个数
 # list.append()         列表末尾追加元素
 # list.insert(i,'X')    列表第i个位置插入元素
