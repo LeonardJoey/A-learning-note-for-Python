@@ -38,3 +38,22 @@ break语句可以在循环中直接退出循环，而continue语句可以提前�
     d[key] = 'a list' 
 ```
 
+## 不可变对象  
+str是不变对象，list的内部内容是可变化的，比如
+```buildoutcfg
+>>> a = ['c','a','b']  
+>>> a.sort()  
+>>> a
+['a','b','c']
+
+```
+而对于不可变对象，比如str，对str进行操作：
+```buildoutcfg
+>>> a = 'abc'  
+>>> b = a.replace('a','A')  
+>>> b
+'Abc'
+>>> a
+'abc'
+```
+* 牢记 a 是变量，'abc'才是字符串对象！
