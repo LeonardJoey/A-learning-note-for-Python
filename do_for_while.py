@@ -43,4 +43,3 @@ while b < 10 :
     if b % 2 == 0:  # 这里特别注意赋值号(=)和等于号(==)的区别使用
         continue    # continue语句会直接继续下一轮循环，后续的print()语句不会执行
     print('b =',b)
-

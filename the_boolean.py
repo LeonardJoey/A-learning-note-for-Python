@@ -5,3 +5,4 @@ print(False or False,"假")
 print(True or False,"真")
 print(not False,"真")
 print(not True,"假")
+

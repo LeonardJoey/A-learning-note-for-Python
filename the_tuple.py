@@ -10,7 +10,8 @@ print('tuple =',tuple)
 # 此时元组内容为(4,)
 
 # 可变的tuple：当tuple包含一个list时，list的内容可变，随之可见的是tuple也作了相应改变，但是这里需要注意的是：
-# 变化的是list的内容，而tuple从未改变，这里的理解关键在于，tuple的指向没有改变，从而我们认为tuple没有改变。
+# 变化的是list的内容，而tuple从未改
+# 变，这里的理解关键在于，tuple的指向没有改变，从而我们认为tuple没有改变。
 # 指定如下L元组，做相应操作
 L = [
     ['Apple', 'Google', 'Microsoft'],
